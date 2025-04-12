@@ -1,0 +1,70 @@
+﻿@{
+    ViewData["Title"] = "Edit";
+    int id = ViewBag.id;
+}
+
+<h1>Edit Employee</h1>
+
+<form id="empForm">
+    <input type="text" name="name" id="name" placeholder="Name" required /><br />
+    <input type="text" name="surname" id="surname" placeholder="Surname" required /><br />
+    <input type="email" name="email" id="email" placeholder="Email" required /><br />
+    <input type="text" name="phone" id="phone" placeholder="Phone" required /><br />
+    <input type="text" name="address" id="address" placeholder="Address" required /><br />
+    <input type="text" name="position" id="position" placeholder="Position" required /><br />
+    <button type="submit">Save Changes</button>
+</form>
+
+@section Scripts {
+    <script>
+        var id = @id;
+
+        $(document).ready(function () {
+            // Load employee data on page load
+            $.ajax({
+                url: `https://localhost:7109/api/Employee/${id}`,
+                type: "GET",
+                success: function (emp) {
+                    $("#name").val(emp.name);
+                    $("#surname").val(emp.surname);
+                    $("#email").val(emp.email);
+                    $("#phone").val(emp.phone);
+                    $("#address").val(emp.address);
+                    $("#position").val(emp.position);
+                },
+                error: function () {
+                    alert("Failed to load employee data.");
+                }
+            });
+
+            // Submit the updated form
+            $("#empForm").on("submit", function (e) {
+                e.preventDefault();
+
+                const updatedEmp = {
+                    id: id,
+                    name: $("#name").val(),
+                    surname: $("#surname").val(),
+                    email: $("#email").val(),
+                    phone: $("#phone").val(),
+                    address: $("#address").val(),
+                    position: $("#position").val()
+                };
+
+                $.ajax({
+                    url: `https://localhost:7109/api/Employee/${id}`,
+                    type: "PUT",
+                    contentType: "application/json",
+                    data: JSON.stringify(updatedEmp),
+                    success: function () {
+                        alert("Employee updated successfully!");
+                        window.location.href = "/Employee/Index"; // Redirect if needed
+                    },
+                    error: function () {
+                        alert("Update failed.");
+                    }
+                });
+            });
+        });
+    </script>
+}

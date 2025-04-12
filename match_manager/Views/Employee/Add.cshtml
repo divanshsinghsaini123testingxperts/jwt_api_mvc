@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Title"] = "Add Employee";
+}
+<h2>Add New Employee</h2>
+
+<form id="empForm">
+    <input type="text" name="name" placeholder="Name" required /><br />
+    <input type="text" name="surname" placeholder="Surname" required /><br />
+    <input type="email" name="email" placeholder="Email" required /><br />
+    <input type="text" name="phone" placeholder="Phone" required /><br />
+    <input type="text" name="address" placeholder="Address" required /><br />
+    <input type="text" name="position" placeholder="Position" required /><br />
+    <button type="submit">Add Employee</button>
+</form>
+
+<a href="/Employee/Index">Back to List</a>
+
+@section Scripts {
+    <script>
+        $("#empForm").submit(function (e) {
+            e.preventDefault();
+            let formData = {
+                Name: $("input[name='name']").val(),
+                Surname: $("input[name='surname']").val(),
+                Email: $("input[name='email']").val(),
+                Phone: $("input[name='phone']").val(),
+                Address: $("input[name='address']").val(),
+                Position: $("input[name='position']").val()
+            };
+
+            $.ajax({
+                url: "https://localhost:7109/api/Employee/",
+                type: "POST",
+                contentType: "application/json",
+                data: JSON.stringify(formData),
+                success: function () {
+                    alert("Employee added successfully");
+                    window.location.href = "/Employee/Index";
+                }
+            });
+        });
+    </script>
+}

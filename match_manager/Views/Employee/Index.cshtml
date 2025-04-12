@@ -1,0 +1,84 @@
+﻿@{
+    ViewData["Title"] = "Employees";
+}
+
+<button class="btn btn-primary" onclick="logout()">Logout</button>
+<h2>Employee List</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Surname</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Address</th>
+            <th>Position</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody id="emp-body">
+        <!-- This will be filled by AJAX -->
+    </tbody>
+</table>
+
+<button class="btn btn-primary" onclick="window.location.href='/Employee/Add'">Add New Employee</button>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            loadEmployees();
+        });
+        function logout(){
+            localStorage.removeItem("token");
+            window.location.href = "/Login/MainView";
+        }
+        function loadEmployees() {
+            $.ajax({
+                url: "https://localhost:7109/api/Employee",
+                type: "GET",
+                headers: {
+                         "Authorization": "Bearer " + localStorage.getItem("token")
+                },
+                success: function (data) {
+                    let rows = '';
+                    $.each(data, function (i, emp) {
+                        rows += `<tr>
+                                    <td>${emp.name}</td>
+                                    <td>${emp.surname}</td>
+                                    <td>${emp.email}</td>
+                                    <td>${emp.phone}</td>
+                                    <td>${emp.address}</td>
+                                    <td>${emp.position}</td>
+                                    <td><button onclick="deleteEmp(${emp.id})" class="btn btn-danger btn-sm">Delete</button></td>
+                                    <td><button onclick="editEmp(${emp.id})" class="btn btn-primary btn-sm">Edit</a></td>
+                                    </tr>`;
+                    });
+                    $("#emp-body").html(rows);
+                },
+                error: function (err) {
+                    console.log(err);
+                    alert("Failed to load employee data.");
+                }
+            });
+        }
+
+        function deleteEmp(id) {
+            $.ajax({
+                url: "https://localhost:7109/api/Employee/" + id,
+                type: "DELETE",
+                success: function () {
+                    loadEmployees(); // reload after delete
+                },
+                error: function () {
+                    alert("Failed to delete employee.");
+                }
+            });
+        }
+
+        function editEmp(id){        
+            window.location.href = "/Employee/Edit/" + id;
+        }
+    </script>
+}

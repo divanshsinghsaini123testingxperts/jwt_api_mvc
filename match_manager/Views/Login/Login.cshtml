@@ -1,0 +1,38 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<h1>Login</h1>
+<form id="loginForm">
+    <input type="text" name="username" id="username" placeholder="Username" required /><br />
+    <input type="password" name="password" id="password" placeholder="Password" required /><br />
+    <button type="submit">Login</button>
+</form>
+
+@section Scripts{
+    <script>
+        $('#loginForm').submit(function(e){
+            e.preventDefault();
+            let formData = {
+                email: $('#username').val(),
+                password: $('#password').val()
+            };
+            $.ajax({
+                url: 'https://localhost:7109/api/AuthService/LoginRequest',
+                type: 'POST',
+                contentType: 'application/json',
+                data: JSON.stringify(formData),
+                success: function(response) {
+                    alert('Login successful!');
+                    localStorage.setItem("token", response.token);
+                    window.location.href = '/Employee/Index';
+                },
+                error: function() {
+                    alert('Login failed. Please check your credentials.');
+                }
+            });
+        });
+    </script>
+}
