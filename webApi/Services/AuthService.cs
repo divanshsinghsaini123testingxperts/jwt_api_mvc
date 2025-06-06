@@ -15,7 +15,7 @@ namespace webApi.Services
     {
         private readonly AppDbcontext _context;
         private readonly TokenService _tokenService;
-        private int otp = 0;
+        //private int otp = 0;
         public AuthService(AppDbcontext context, TokenService tokenwali_service)
         {
             _tokenService = tokenwali_service;
@@ -61,10 +61,10 @@ namespace webApi.Services
 
             // Implement the logic of sending email to user, to that particular mail
             var rand = new Random();
-            otp = rand.Next(100000, 1000000);
-
+            var otp = rand.Next(100000, 1000000);
+            OtpStore.EmailOtpMap[e.Email] = otp; // ✅ Save OTP per user
             // Corrected the usage of File.ReadAllText to avoid conflict with ControllerBase.File method
-            string template = System.IO.File.ReadAllText("path/to/template.html");
+            string template = System.IO.File.ReadAllText("C:/Users/divan/OneDrive/Desktop/jwt_api_mvc/webApi/Template/mail_temp.html");
             string emailBody = template.Replace("123456", otp.ToString());
             var emailService = new EmailService();
             emailService.SendCustomEmail(e.Email, emailBody).Wait(); 
@@ -76,11 +76,18 @@ namespace webApi.Services
         [HttpPost("Forgot_Password_otpcheck")]
         public IActionResult Forgot_Password_otpcheck(mailotp temp)
         {
+            //var user = _context.Users.FirstOrDefault(u => u.Email == temp.Email);
             var user = _context.Users.FirstOrDefault(u => u.Email == temp.Email);
-            var NewOtp = temp.Otp;
+            if (user == null) return BadRequest("User not found");
 
-            if (user == null ||  Convert.ToInt32(NewOtp) != otp) return BadRequest("Incorrect Otp ");
-            return Ok();
+            if (!OtpStore.EmailOtpMap.TryGetValue(temp.Email, out var savedOtp))
+                return BadRequest("OTP expired or not sent");
+
+            int enteredOtp = Convert.ToInt32(temp.Otp);
+            if (enteredOtp != savedOtp)
+                return BadRequest("Incorrect OTP");
+
+            return Ok("OTP verified");
         }
         [HttpPost("SetNewPassword")]
         public IActionResult SetNewPassword(Login_details user)
