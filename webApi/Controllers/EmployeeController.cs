@@ -8,6 +8,7 @@ using webApi.Models.Entity;
 
 namespace webApi.Controllers
 {
+    
     [Route("api/[controller]")]
     [ApiController]
     public class EmployeeController : ControllerBase
@@ -19,14 +20,16 @@ namespace webApi.Controllers
         }
         //now we need to define the type of fucnto that we are usign for
         [HttpGet] //for getting data from database 
-      
+        [Authorize]
         public IActionResult GetAllData()
         {
             var lst = _tables.Employees.ToList();
+            Console.WriteLine("This is good till now ( just after quary)");
             return Ok(lst);
         }
         //partical get - get the details for a only id 
         [HttpGet("{id}")]
+        [Authorize]
         public IActionResult GetById(int id)
         {
             var item = _tables.Employees.Find(id);
@@ -34,7 +37,7 @@ namespace webApi.Controllers
             return Ok(item);
         }
         [HttpPost]
-       
+        [Authorize]
         public IActionResult Add_emp(Adder y)
         {
             var obj_emp = new Employee()
@@ -53,7 +56,7 @@ namespace webApi.Controllers
         }
 
         [HttpDelete("{id}")]
-       
+        [Authorize]
         public IActionResult Delete_emp(int id)
         {
             var emp = _tables.Employees.Find(id);
@@ -64,7 +67,7 @@ namespace webApi.Controllers
         }
 
         [HttpPut("{id}")]
-
+        [Authorize]
         public IActionResult Update_emp(int id, Employee emp)
         {
             var item

@@ -1,62 +1,66 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\mvc-api\\match_manager\\",
+  "WorkspaceRootPath": "C:\\Users\\Testing\\Desktop\\jwt_api_mvc\\match_manager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1647A618-9272-48D0-8EB9-B018829D7F3F}|match_manager.csproj|d:\\mvc-api\\match_manager\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1647A618-9272-48D0-8EB9-B018829D7F3F}|match_manager.csproj|solutionrelative:views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1647A618-9272-48D0-8EB9-B018829D7F3F}|match_manager.csproj|c:\\users\\testing\\desktop\\jwt_api_mvc\\match_manager\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1647A618-9272-48D0-8EB9-B018829D7F3F}|match_manager.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1647A618-9272-48D0-8EB9-B018829D7F3F}|match_manager.csproj|d:\\mvc-api\\match_manager\\views\\login\\mainview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1647A618-9272-48D0-8EB9-B018829D7F3F}|match_manager.csproj|solutionrelative:views\\login\\mainview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1647A618-9272-48D0-8EB9-B018829D7F3F}|match_manager.csproj|c:\\users\\testing\\desktop\\jwt_api_mvc\\match_manager\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1647A618-9272-48D0-8EB9-B018829D7F3F}|match_manager.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1647A618-9272-48D0-8EB9-B018829D7F3F}|match_manager.csproj|d:\\mvc-api\\match_manager\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1647A618-9272-48D0-8EB9-B018829D7F3F}|match_manager.csproj|solutionrelative:views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1647A618-9272-48D0-8EB9-B018829D7F3F}|match_manager.csproj|d:\\mvc-api\\match_manager\\views\\login\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1647A618-9272-48D0-8EB9-B018829D7F3F}|match_manager.csproj|solutionrelative:views\\login\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1647A618-9272-48D0-8EB9-B018829D7F3F}|match_manager.csproj|d:\\mvc-api\\match_manager\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{1647A618-9272-48D0-8EB9-B018829D7F3F}|match_manager.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\mvc-api\\match_manager\\match_manager.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:match_manager.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1647A618-9272-48D0-8EB9-B018829D7F3F}|match_manager.csproj|d:\\mvc-api\\match_manager\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1647A618-9272-48D0-8EB9-B018829D7F3F}|match_manager.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1647A618-9272-48D0-8EB9-B018829D7F3F}|match_manager.csproj|d:\\mvc-api\\match_manager\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1647A618-9272-48D0-8EB9-B018829D7F3F}|match_manager.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1647A618-9272-48D0-8EB9-B018829D7F3F}|match_manager.csproj|d:\\mvc-api\\match_manager\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{1647A618-9272-48D0-8EB9-B018829D7F3F}|match_manager.csproj|c:\\users\\testing\\desktop\\jwt_api_mvc\\match_manager\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1647A618-9272-48D0-8EB9-B018829D7F3F}|match_manager.csproj|solutionrelative:views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1647A618-9272-48D0-8EB9-B018829D7F3F}|match_manager.csproj|d:\\mvc-api\\match_manager\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1647A618-9272-48D0-8EB9-B018829D7F3F}|match_manager.csproj|solutionrelative:models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1647A618-9272-48D0-8EB9-B018829D7F3F}|match_manager.csproj|c:\\users\\testing\\desktop\\jwt_api_mvc\\match_manager\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1647A618-9272-48D0-8EB9-B018829D7F3F}|match_manager.csproj|solutionrelative:views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1647A618-9272-48D0-8EB9-B018829D7F3F}|match_manager.csproj|d:\\mvc-api\\match_manager\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{1647A618-9272-48D0-8EB9-B018829D7F3F}|match_manager.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1647A618-9272-48D0-8EB9-B018829D7F3F}|match_manager.csproj|d:\\mvc-api\\match_manager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1647A618-9272-48D0-8EB9-B018829D7F3F}|match_manager.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1647A618-9272-48D0-8EB9-B018829D7F3F}|match_manager.csproj|d:\\mvc-api\\match_manager\\views\\employee\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{1647A618-9272-48D0-8EB9-B018829D7F3F}|match_manager.csproj|c:\\users\\testing\\desktop\\jwt_api_mvc\\match_manager\\views\\employee\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1647A618-9272-48D0-8EB9-B018829D7F3F}|match_manager.csproj|solutionrelative:views\\employee\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1647A618-9272-48D0-8EB9-B018829D7F3F}|match_manager.csproj|d:\\mvc-api\\match_manager\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1647A618-9272-48D0-8EB9-B018829D7F3F}|match_manager.csproj|c:\\users\\testing\\desktop\\jwt_api_mvc\\match_manager\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1647A618-9272-48D0-8EB9-B018829D7F3F}|match_manager.csproj|solutionrelative:controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1647A618-9272-48D0-8EB9-B018829D7F3F}|match_manager.csproj|c:\\users\\testing\\desktop\\jwt_api_mvc\\match_manager\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1647A618-9272-48D0-8EB9-B018829D7F3F}|match_manager.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1647A618-9272-48D0-8EB9-B018829D7F3F}|match_manager.csproj|c:\\users\\testing\\desktop\\jwt_api_mvc\\match_manager\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1647A618-9272-48D0-8EB9-B018829D7F3F}|match_manager.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1647A618-9272-48D0-8EB9-B018829D7F3F}|match_manager.csproj|c:\\users\\testing\\desktop\\jwt_api_mvc\\match_manager\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1647A618-9272-48D0-8EB9-B018829D7F3F}|match_manager.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Testing\\Desktop\\jwt_api_mvc\\match_manager\\match_manager.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:match_manager.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1647A618-9272-48D0-8EB9-B018829D7F3F}|match_manager.csproj|c:\\users\\testing\\desktop\\jwt_api_mvc\\match_manager\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1647A618-9272-48D0-8EB9-B018829D7F3F}|match_manager.csproj|solutionrelative:views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1647A618-9272-48D0-8EB9-B018829D7F3F}|match_manager.csproj|c:\\users\\testing\\desktop\\jwt_api_mvc\\match_manager\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1647A618-9272-48D0-8EB9-B018829D7F3F}|match_manager.csproj|solutionrelative:models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1647A618-9272-48D0-8EB9-B018829D7F3F}|match_manager.csproj|c:\\users\\testing\\desktop\\jwt_api_mvc\\match_manager\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1647A618-9272-48D0-8EB9-B018829D7F3F}|match_manager.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1647A618-9272-48D0-8EB9-B018829D7F3F}|match_manager.csproj|c:\\users\\testing\\desktop\\jwt_api_mvc\\match_manager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1647A618-9272-48D0-8EB9-B018829D7F3F}|match_manager.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1647A618-9272-48D0-8EB9-B018829D7F3F}|match_manager.csproj|c:\\users\\testing\\desktop\\jwt_api_mvc\\match_manager\\views\\login\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1647A618-9272-48D0-8EB9-B018829D7F3F}|match_manager.csproj|solutionrelative:views\\login\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 16,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -90,123 +94,37 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\mvc-api\\match_manager\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\mvc-api\\match_manager\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-12T11:57:15.306Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "match_manager.csproj.user",
-              "DocumentMoniker": "D:\\mvc-api\\match_manager\\match_manager.csproj.user",
-              "RelativeDocumentMoniker": "match_manager.csproj.user",
-              "ToolTip": "D:\\mvc-api\\match_manager\\match_manager.csproj.user",
-              "RelativeToolTip": "match_manager.csproj.user",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
-              "WhenOpened": "2025-04-12T11:57:14.822Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "D:\\mvc-api\\match_manager\\Views\\Login\\Register.cshtml",
-              "RelativeDocumentMoniker": "Views\\Login\\Register.cshtml",
-              "ToolTip": "D:\\mvc-api\\match_manager\\Views\\Login\\Register.cshtml",
-              "RelativeToolTip": "Views\\Login\\Register.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABgAAAAdAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Testing\\Desktop\\jwt_api_mvc\\match_manager\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Testing\\Desktop\\jwt_api_mvc\\match_manager\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-11T21:49:58.794Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\mvc-api\\match_manager\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "D:\\mvc-api\\match_manager\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T21:49:29.448Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "D:\\mvc-api\\match_manager\\Views\\Login\\Login.cshtml",
-              "RelativeDocumentMoniker": "Views\\Login\\Login.cshtml",
-              "ToolTip": "D:\\mvc-api\\match_manager\\Views\\Login\\Login.cshtml",
-              "RelativeToolTip": "Views\\Login\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-11T21:49:20.605Z",
+              "WhenOpened": "2025-04-14T09:23:24.585Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MainView.cshtml",
-              "DocumentMoniker": "D:\\mvc-api\\match_manager\\Views\\Login\\MainView.cshtml",
-              "RelativeDocumentMoniker": "Views\\Login\\MainView.cshtml",
-              "ToolTip": "D:\\mvc-api\\match_manager\\Views\\Login\\MainView.cshtml",
-              "RelativeToolTip": "Views\\Login\\MainView.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Testing\\Desktop\\jwt_api_mvc\\match_manager\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Testing\\Desktop\\jwt_api_mvc\\match_manager\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-11T21:44:41.502Z",
+              "WhenOpened": "2025-04-14T09:23:17.851Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "D:\\mvc-api\\match_manager\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
-              "ToolTip": "D:\\mvc-api\\match_manager\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "Controllers\\LoginController.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAwwAkAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T21:40:16.533Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\mvc-api\\match_manager\\Views\\Employee\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Employee\\Edit.cshtml",
-              "ToolTip": "D:\\mvc-api\\match_manager\\Views\\Employee\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Employee\\Edit.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-10T12:47:50.637Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "D:\\mvc-api\\match_manager\\Models\\Employee.cs",
-              "RelativeDocumentMoniker": "Models\\Employee.cs",
-              "ToolTip": "D:\\mvc-api\\match_manager\\Models\\Employee.cs",
-              "RelativeToolTip": "Models\\Employee.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T06:22:58.823Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\mvc-api\\match_manager\\Properties\\launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Testing\\Desktop\\jwt_api_mvc\\match_manager\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "D:\\mvc-api\\match_manager\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Testing\\Desktop\\jwt_api_mvc\\match_manager\\Properties\\launchSettings.json",
               "RelativeToolTip": "Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -214,11 +132,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\mvc-api\\match_manager\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Testing\\Desktop\\jwt_api_mvc\\match_manager\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\mvc-api\\match_manager\\Program.cs",
+              "ToolTip": "C:\\Users\\Testing\\Desktop\\jwt_api_mvc\\match_manager\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABgAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -226,40 +144,142 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\mvc-api\\match_manager\\Views\\Employee\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Testing\\Desktop\\jwt_api_mvc\\match_manager\\Views\\Employee\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Employee\\Index.cshtml",
-              "ToolTip": "D:\\mvc-api\\match_manager\\Views\\Employee\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Testing\\Desktop\\jwt_api_mvc\\match_manager\\Views\\Employee\\Index.cshtml",
               "RelativeToolTip": "Views\\Employee\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAD4AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-10T06:24:37.183Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Add.cshtml",
-              "DocumentMoniker": "D:\\mvc-api\\match_manager\\Views\\Employee\\Add.cshtml",
-              "RelativeDocumentMoniker": "Views\\Employee\\Add.cshtml",
-              "ToolTip": "D:\\mvc-api\\match_manager\\Views\\Employee\\Add.cshtml",
-              "RelativeToolTip": "Views\\Employee\\Add.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-10T06:47:22.441Z"
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Testing\\Desktop\\jwt_api_mvc\\match_manager\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Testing\\Desktop\\jwt_api_mvc\\match_manager\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-12T11:57:15.306Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 5,
               "Title": "EmployeeController.cs",
-              "DocumentMoniker": "D:\\mvc-api\\match_manager\\Controllers\\EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\Testing\\Desktop\\jwt_api_mvc\\match_manager\\Controllers\\EmployeeController.cs",
               "RelativeDocumentMoniker": "Controllers\\EmployeeController.cs",
-              "ToolTip": "D:\\mvc-api\\match_manager\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\Testing\\Desktop\\jwt_api_mvc\\match_manager\\Controllers\\EmployeeController.cs",
               "RelativeToolTip": "Controllers\\EmployeeController.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T06:22:33.44Z"
+              "WhenOpened": "2025-04-10T06:22:33.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Testing\\Desktop\\jwt_api_mvc\\match_manager\\Views\\Login\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Login\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Testing\\Desktop\\jwt_api_mvc\\match_manager\\Views\\Login\\Login.cshtml",
+              "RelativeToolTip": "Views\\Login\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-11T21:49:20.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Testing\\Desktop\\jwt_api_mvc\\match_manager\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Testing\\Desktop\\jwt_api_mvc\\match_manager\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T21:49:29.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\Testing\\Desktop\\jwt_api_mvc\\match_manager\\Views\\Employee\\Add.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employee\\Add.cshtml",
+              "ToolTip": "C:\\Users\\Testing\\Desktop\\jwt_api_mvc\\match_manager\\Views\\Employee\\Add.cshtml",
+              "RelativeToolTip": "Views\\Employee\\Add.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-10T06:47:22.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Testing\\Desktop\\jwt_api_mvc\\match_manager\\Views\\Employee\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employee\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Testing\\Desktop\\jwt_api_mvc\\match_manager\\Views\\Employee\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Employee\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-10T12:47:50.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\Testing\\Desktop\\jwt_api_mvc\\match_manager\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\Testing\\Desktop\\jwt_api_mvc\\match_manager\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T21:40:16.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\Testing\\Desktop\\jwt_api_mvc\\match_manager\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\Testing\\Desktop\\jwt_api_mvc\\match_manager\\Models\\Employee.cs",
+              "RelativeToolTip": "Models\\Employee.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T06:22:58.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Testing\\Desktop\\jwt_api_mvc\\match_manager\\Views\\Login\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Login\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Testing\\Desktop\\jwt_api_mvc\\match_manager\\Views\\Login\\Register.cshtml",
+              "RelativeToolTip": "Views\\Login\\Register.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-11T21:49:58.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "match_manager.csproj.user",
+              "DocumentMoniker": "C:\\Users\\Testing\\Desktop\\jwt_api_mvc\\match_manager\\match_manager.csproj.user",
+              "RelativeDocumentMoniker": "match_manager.csproj.user",
+              "ToolTip": "C:\\Users\\Testing\\Desktop\\jwt_api_mvc\\match_manager\\match_manager.csproj.user",
+              "RelativeToolTip": "match_manager.csproj.user",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
+              "WhenOpened": "2025-04-12T11:57:14.822Z"
             }
           ]
         }

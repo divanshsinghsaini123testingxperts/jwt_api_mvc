@@ -27,7 +27,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowMVC",
         builder =>
         {
-            builder.WithOrigins("https://localhost:7227")
+            builder.WithOrigins("https://localhost:5173")
                   .AllowAnyHeader()
                    .AllowAnyMethod();
         });

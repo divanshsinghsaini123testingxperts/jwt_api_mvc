@@ -6,7 +6,7 @@
 <form id="empForm">
     <input type="text" name="name" placeholder="Name" required /><br />
     <input type="text" name="surname" placeholder="Surname" required /><br />
-    <input type="email" name="email" placeholder="Email" required /><br />
+    <input type="text" name="email" placeholder="Email" required /><br />
     <input type="text" name="phone" placeholder="Phone" required /><br />
     <input type="text" name="address" placeholder="Address" required /><br />
     <input type="text" name="position" placeholder="Position" required /><br />
@@ -30,6 +30,9 @@
 
             $.ajax({
                 url: "https://localhost:7109/api/Employee/",
+                headers: {
+					 'Authorization': 'Bearer ' + localStorage.getItem("token")
+                },
                 type: "POST",
                 contentType: "application/json",
                 data: JSON.stringify(formData),

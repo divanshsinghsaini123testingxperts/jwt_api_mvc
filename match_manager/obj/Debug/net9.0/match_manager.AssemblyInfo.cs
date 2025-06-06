@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("match_manager")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+63f44a1a9e09a4dc063c97f871441e8bb5243ee8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e6bed10e37dd9bdececa90edc25a98ff44c3e44d")]
 [assembly: System.Reflection.AssemblyProductAttribute("match_manager")]
 [assembly: System.Reflection.AssemblyTitleAttribute("match_manager")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

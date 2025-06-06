@@ -8,7 +8,7 @@
 <form id="empForm">
     <input type="text" name="name" id="name" placeholder="Name" required /><br />
     <input type="text" name="surname" id="surname" placeholder="Surname" required /><br />
-    <input type="email" name="email" id="email" placeholder="Email" required /><br />
+    <input type="text" name="email" id="email" placeholder="Email" required /><br />
     <input type="text" name="phone" id="phone" placeholder="Phone" required /><br />
     <input type="text" name="address" id="address" placeholder="Address" required /><br />
     <input type="text" name="position" id="position" placeholder="Position" required /><br />
@@ -23,6 +23,9 @@
             // Load employee data on page load
             $.ajax({
                 url: `https://localhost:7109/api/Employee/${id}`,
+                headers: {
+                     'Authorization': 'Bearer ' + localStorage.getItem("token")
+                },
                 type: "GET",
                 success: function (emp) {
                     $("#name").val(emp.name);
@@ -54,6 +57,9 @@
                 $.ajax({
                     url: `https://localhost:7109/api/Employee/${id}`,
                     type: "PUT",
+                     headers: {
+                     'Authorization': 'Bearer ' + localStorage.getItem("token")
+                },
                     contentType: "application/json",
                     data: JSON.stringify(updatedEmp),
                     success: function () {

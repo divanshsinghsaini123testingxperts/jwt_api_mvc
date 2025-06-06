@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\match_manager",
+    "\\webApi",
+    "\\webApi\\Services"
+  ],
+  "SelectedNode": "\\webApi\\Services\\TokenService.cs",
+  "PreviewInSolutionExplorer": false
+}

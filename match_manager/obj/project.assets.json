@@ -5498,23 +5498,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\divan\\.nuget\\packages\\": {},
+    "C:\\Users\\Testing\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\mvc-api\\match_manager\\match_manager.csproj",
+      "projectUniqueName": "C:\\Users\\Testing\\Desktop\\jwt_api_mvc\\match_manager\\match_manager.csproj",
       "projectName": "match_manager",
-      "projectPath": "D:\\mvc-api\\match_manager\\match_manager.csproj",
-      "packagesPath": "C:\\Users\\divan\\.nuget\\packages\\",
-      "outputPath": "D:\\mvc-api\\match_manager\\obj\\",
+      "projectPath": "C:\\Users\\Testing\\Desktop\\jwt_api_mvc\\match_manager\\match_manager.csproj",
+      "packagesPath": "C:\\Users\\Testing\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Testing\\Desktop\\jwt_api_mvc\\match_manager\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\divan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Testing\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -5571,7 +5571,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

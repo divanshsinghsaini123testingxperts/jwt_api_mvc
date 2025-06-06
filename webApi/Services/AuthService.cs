@@ -14,7 +14,7 @@ namespace webApi.Services
     {
         private readonly AppDbcontext _context;
         private readonly TokenService _tokenService;
-
+        private int otp = 0;
         public AuthService(AppDbcontext context, TokenService tokenwali_service)
         {
             _tokenService = tokenwali_service;
@@ -48,5 +48,49 @@ namespace webApi.Services
             }
             return Unauthorized();
         }
+
+        [HttpPost("Forgot_Password_mailcheck")]
+        public IActionResult Forgot_Password_mailcheck(Emailh e)
+        {
+            var user = _context.Users.FirstOrDefault(u => u.Email == e.Email);
+            if (user == null) return BadRequest("Email not exists -");
+            Console.WriteLine("Email_in_databse--" + user.Email);
+            Console.WriteLine("email_come_from--" + e.Email);
+
+            // Implement the logic of sending email to user, to that particular mail
+            var rand = new Random();
+            otp = rand.Next(100000, 1000000);
+
+            // Corrected the usage of File.ReadAllText to avoid conflict with ControllerBase.File method
+            string template = System.IO.File.ReadAllText("path/to/template.html");
+            string emailBody = template.Replace("123456", otp.ToString());
+            var emailService = new EmailService();
+            emailService.SendCustomEmail(e.Email, emailBody).Wait(); 
+            // Logic for sending email can be added here
+
+            return Ok();
+        }
+
+        [HttpPost("Forgot_Password_otpcheck")]
+        public IActionResult Forgot_Password_otpcheck(mailotp temp)
+        {
+            var user = _context.Users.FirstOrDefault(u => u.Email == temp.Email);
+            var NewOtp = temp.Otp;
+
+            if (user == null ||  Convert.ToInt32(NewOtp) != otp) return BadRequest("Incorrect Otp ");
+            return Ok();
+        }
     }
+    public class mailotp{
+        public string Email { get; set; }
+        public string Otp { get; set; }
+
+    }
+    public class Emailh
+    {
+        public string Email { get; set; }
+    }
+
 }
+
+
