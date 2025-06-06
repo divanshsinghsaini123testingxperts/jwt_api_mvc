@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Identity.Client;
 using Microsoft.VisualBasic;
 using webApi.Interface;
@@ -38,6 +39,7 @@ namespace webApi.Services
         }
 
         [HttpPost("LoginRequest")]
+        
         public IActionResult LoginRequest(Login_details login)
         {
             var user = _context.Users.FirstOrDefault(u => u.Email == login.Email && u.Password == login.Password);
@@ -79,6 +81,17 @@ namespace webApi.Services
 
             if (user == null ||  Convert.ToInt32(NewOtp) != otp) return BadRequest("Incorrect Otp ");
             return Ok();
+        }
+        [HttpPost("SetNewPassword")]
+        public IActionResult SetNewPassword(Login_details user)
+        {
+            var us = _context.Users.FirstOrDefault(u => u.Email == user.Email);
+            if (us == null) return BadRequest("User NOt found ");
+            us.Password = user.Password;
+            //_context.Update(us);
+            _context.SaveChanges();
+            return Ok();
+
         }
     }
     public class mailotp{

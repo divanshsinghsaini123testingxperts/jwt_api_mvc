@@ -21,15 +21,16 @@ builder.Services.AddDbContext<AppDbcontext>(
     options =>
       options.UseSqlServer(connectionString)) ;
 
-
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowMVC",
+    options.AddPolicy("AllowReactApp",
         builder =>
         {
-            builder.WithOrigins("https://localhost:5173")
-                  .AllowAnyHeader()
-                   .AllowAnyMethod();
+            builder
+                .WithOrigins("http://localhost:5173") // Your React app's URL
+                .AllowAnyMethod()
+                .AllowAnyHeader()
+                .AllowCredentials();
         });
 });
 
@@ -84,7 +85,7 @@ builder.Services.AddSwaggerGen(opt =>
 });
 
 var app = builder.Build();
-app.UseCors("AllowMVC");
+app.UseCors("AllowReactApp");
 // Swagger UI
 if (app.Environment.IsDevelopment())
 {
@@ -93,6 +94,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseCors("AllowReactApp");
 app.UseAuthorization();
 app.MapControllers();
 
